@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    background-color: rgb(243, 241, 241);
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.menu-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-content button a{
+    color: white;
+}
+
+.menu-content button a:hover{
+    color: #0365B5;
+}
+
+a{
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:active{
+    color: #0365B5;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    background: #0365B5;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background: transparent;
+    color: #0365B5;
+    border: 2px solid #0365B5;
+}
+
+.img-section img{
+    width: 33%;
+}
+
+.middle-section{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.middle-section h1{
+    margin: 40px;
+}
+
+.middle-section-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+footer{
+    min-width: 100%;
+    height: 40px;
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 17px;
+}
+
+#logo p{
+    font-size: 30px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.causes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.causes h2, .about-us h2{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#cause{
+    color: #0365B5;
+}
+
+#button{
+    background-color: transparent;
+    border: 2px solid #0365B5;
+    color: #0365B5;
+}
+
+#button:hover{
+    background-color: #0365B5;
+    color: #ffffff;
+    border-block-style: none;
+}
+
+.title{
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.center-content{
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 15px;
+    font-size: 16px;
+    color: #949494;
+    line-height: 26px;
+    font-family: 'Roboto-light';
+    text-align: justify;
+}
+
+.column{
+    width: 33.3%;
+}
+
+.column-content{
+    text-align: center;
+    width: 80%;
+    margin-left: 40px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.container{
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.about-us-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px;
+}
+.about-writeup{
+    width: 50%;
+}
+
+.about-writeup button{
+    margin-top: 90px;
+}
+
+.about-us-content h3{
+    font-weight: 700;
+    padding: 0px 0 30px;
+}
+
+.about-us-content p{
+    font-size: 16px;
+    color: #949494;
+    line-height: 26px;
+    font-family: 'Roboto-light';
+    margin: 20px;
+    padding: 0;
+    text-align: justify;
+}
+
+.about-us h2{
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.about-us h2 #us{
+    color: #0365B5;
+}
+
+.about-writeup button{
+    float: left;
+    margin-left: 20px;
+}
+
+.donation{
+    background-color: #222121;
+    color: white;
+    padding: 50px;
+}
+
+.donation h4{
+    position: relative;
+    font-weight: 700;
+}
+
+.donation h2{
+    color: #0365B5;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    box-shadow: #0365B5;
+}
+
+.donation p{
+    font-size: 16px;
+    color: #949494;
+    line-height: 26px;
+    font-family: 'Roboto-light';
+    margin-bottom: 30px;
+    color: white;
+}
+
+.donation button{
+    margin-left: 0;
+}
